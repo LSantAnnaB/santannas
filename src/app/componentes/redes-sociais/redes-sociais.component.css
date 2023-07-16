@@ -1,0 +1,74 @@
+
+.button-rs{
+
+  padding:1em;
+  border-radius:100vw;
+  display:inline-flex;
+  margin:0.5em;
+  color:#ffffff;
+  width:auto;
+
+}
+
+.button-rs a {
+
+  text-decoration:none;
+  color:#fff;
+  display: inherit;
+
+}
+
+.instagram{
+
+ background:hsl(0 0% 10%);
+ background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+
+}
+
+.github{
+background:#3b5998;
+}
+
+.linkedin{
+background:#1DA1F2;
+}
+
+.whatsapp{
+background:#15cc31;
+margin-bottom: 0.3em;
+}
+
+.email{
+background:#e60023;
+}
+
+.button-rs:hover{
+cursor:pointer;
+}
+
+.button-rs i {
+
+  width: 25px;
+  height: 25px;
+  line-height: 31px;
+  font-size: 1.5em;
+
+}
+
+.button-rs span{
+
+display:inline-block;
+white-space: nowrap;
+width:0px;
+overflow:hidden;
+transition:350ms ease;
+
+}
+
+.button-rs:hover span{
+
+width:100px;
+margin-left: 1em;
+margin-top: 0.4em;
+
+}
