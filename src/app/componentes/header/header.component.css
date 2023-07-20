@@ -6,7 +6,7 @@
 }
 
 .header__button {
-  margin: 0.5em;
+  margin: 1%;
 }
 
 .btn {
@@ -22,7 +22,7 @@
 }
 
 .btn:hover {
-  text-shadow: 0 0 5px #29f401, 0 0 10px #aaff95, 0 0 20px #ffffff, 0 0 40px #00eaff, 0 0 80px #00eaff, 0 0 90px #00eaff, 0 0 100px #00eaff, 0 0 150px #00eaff;
+  text-shadow: 0 0 5px #5ef401, 0 0 10px #aaff95, 0 0 20px #ffffff, 0 0 40px #33ff00, 0 0 80px #3cff00, 0 0 90px #59ff00, 0 0 100px #44ff00;
   transform: translateZ(50px);
 }
 

@@ -1,4 +1,7 @@
-
+.social{
+  display: flex;
+  justify-content: start;
+}
 .button-rs{
 
   padding:1em;
