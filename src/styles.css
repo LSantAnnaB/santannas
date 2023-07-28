@@ -1,7 +1,7 @@
 :root {
   --cor-principal: #ff0d00;
-  --cor-secundaria: #ffffff;
-  --cor-extra: #2bff00;
+  --cor-secundaria: #fafe25;
+  --cor-extra: #ffffff;
 
   --fonte-primaria: 'Krona One', sans-serif;
   --fonte-secundaria: 'Montserrat', sans-serif;
@@ -12,16 +12,3 @@
   padding: 0;
 }
 
-body {
-  background-image: url(./assets/background-01.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-
-}
-@media(max-width:800px) {
-
-  body{
-    min-height: 100vh;
-    background-repeat: no-repeat;
-  }
-}

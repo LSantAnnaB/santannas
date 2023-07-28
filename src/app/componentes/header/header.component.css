@@ -1,32 +1,98 @@
-.header {
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+html{
+  height: 500vh;
+  background-color: #000;
+}
+
+.container{
+  max-width: 1280px;
+  margin: auto;
+}
+
+.flex{
   display: flex;
-  justify-content: flex-start;
-  height: auto;
-
+  align-items: center;
+  justify-content: space-between;
 }
 
-.header__button {
-  margin: 1%;
+header{
+  width: 100%;
+  padding: 60px 4%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: .5s;
 }
 
-.btn {
-  position: relative;
+header.rolagem{
+  background-color: #19191957;
+  padding: 20px 4%;
+}
+
+header.rolagem a, header.rolagem i{
+  color: #FE775A;
+  font-size: 1.3em;
+}
+
+header ul{
+  list-style-type: none;
+}
+
+header ul li{
   display: inline-block;
-  padding: 10px 20px;
-  background-color: transparent;
-  border: none;
+  margin: 0 40px;
+}
+
+header ul li a{
   color: #ffffff;
-  font-size: 16px;
+  text-decoration: none;
+  font-size: 1.3em;
+  display: inline-block; /* Certificar-se de que os links se comportem como elementos em linha */
+  /* Efeito de transição para suavizar o destaque */
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border-bottom: 2px solid transparent;
+}
+
+nav ul li a:hover {
+  transform: translateY(-4px) translateX(2px);
+  border-bottom-color: #FE775A;/* Move o link 2 pixels para cima ao passar o mouse */
+
+}
+
+.btn-contato button{
+  width: 120px;
+  height: 40px;
+  border: 0;
+  background-color: #FE775A;
+  color: #fff;
   cursor: pointer;
-  transition: transform 0.3s;
+  transition: .2s;
 }
 
-.btn:hover {
-  text-shadow: 0 0 5px #5ef401, 0 0 10px #aaff95, 0 0 20px #ffffff, 0 0 40px #33ff00, 0 0 80px #3cff00, 0 0 90px #59ff00, 0 0 100px #44ff00;
-  transform: translateZ(50px);
+.banner{
+  height: 100vh;
+  background-image: url(../../../assets/header.jpg);
+  background-position: 100% 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.button-neon:hover::after {
-  opacity: 1;
+.banner h1{
+  font-size: 4em;
 }
-.btn:hover { transform: rotateY(20deg) scale(1.3); }
+
+.banner h1 span{
+  color: #ff0000;
+}
+
