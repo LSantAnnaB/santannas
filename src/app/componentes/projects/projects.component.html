@@ -1,19 +1,39 @@
 <main>
 
-  <div class="container">
+  <div class="container-projects">
 
-    <div class="slide-container">
-      <a [href]="getCurrentLink()" [style.zIndex]="currentImageIndex + 1" class="slide-link" target="_blank">
-        <img [src]="getCurrentImage()" alt="Slide Image" class="slide-image" />
-      </a>
-    </div>
-    <div class="slide-container-responsive">
-      <a [href]="getCurrentResponsiveLink()" [style.zIndex]="currentResponsiveImageIndex + 1"
-        class="slide-link-responsive" target="_blank">
-        <img [src]="getCurrentResponsiveImage()" alt="Slide Image" class="slide-image" />
-      </a>
-    </div>
+    <div class="container-project">
 
+      <div class="slide-container">
+        <a [href]="getCurrentLink()" [style.zIndex]="currentImageIndex + 1" class="slide-link" target="_blank">
+          <img [src]="getCurrentImage()" alt="Slide Image" class="slide-image" />
+        </a>
+      </div>
+      <div class="slide-container-responsive">
+        <a [href]="getCurrentResponsiveLink()" [style.zIndex]="currentResponsiveImageIndex + 1"
+          class="slide-link-responsive" target="_blank">
+          <img [src]="getCurrentResponsiveImage()" alt="Slide Image" class="slide-image" />
+        </a>
+      </div>
+
+    </div>
   </div>
+
+  <section class="module parallax parallax-1">
+    <h1 class="area-1">{{ title_parallax_project }}</h1>
+  </section>
+
+  <section class="module content">
+    <div class="container">
+      <h2>{{ subtitle_parallax_project_1 }}</h2>
+      <p>{{ text_parallax_project_1_1 }}</p>
+      <p>{{ text_parallax_project_1_2 }}</p>
+      <p>{{ text_parallax_project_2_1 }}</p>
+      <p>{{ text_parallax_project_2_2 }}</p>
+      <h2>{{ subtitle_parallax_project_2 }}</h2>
+      <p>{{ text_parallax_project_2_1 }}</p>
+      <p>{{ text_parallax_project_2_2 }}</p>
+    </div>
+  </section>
 
 </main>

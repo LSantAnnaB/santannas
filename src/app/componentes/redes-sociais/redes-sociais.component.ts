@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class RedesSociaisComponent {
 
   linkedin: string = 'https://www.linkedin.com/in/l-sant-anna-b-contato-in/ ';
-  gitHub: string = 'https://github.com/LSantAnnaB?tab=repositories';
+  gitHub: string = 'https://github.com/LSantAnnaB';
 
   phone = '+5521964032474';
   msg = 'Olá%20quero%20elevar%20meu%20negócio%20para%20o%20PRÓXIMO%20NÍVEL%20!';

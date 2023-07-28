@@ -6,6 +6,17 @@ import { Component ,OnInit} from '@angular/core';
   styleUrls: ['./projects.component.css']
 })
 export class ProjectsComponent implements OnInit{
+  title_parallax_project:string ='Skills'
+  subtitle_parallax_project_1:string='Back-end'
+  text_parallax_project_1_1:string='Linguagem: Java'
+  text_parallax_project_1_2:string='Hard Skill: Spring Framework, Maven, JPA, API REST, S.O.L.I.D,  AWS, Microsserviços, RabbitMQ, Grafana, FortFy, Splunk Scrum, Agile, Jira '
+  text_parallax_project_1_3:string='Versionamento: GitHub, Pipeline e CICD, OpenApi'
+  subtitle_parallax_project_2:string='Front-end'
+  text_parallax_project_2_1:string='Linguagem: JavaScript, TypeScript'
+  text_parallax_project_2_2:string='Hard Skill: HTML, Css, Angular, Node.JS'
+
+
+
   images: string[] = [
     '../../../assets/projects/contabil-01.png',
     '../../../assets/projects/contabil-02.png',
