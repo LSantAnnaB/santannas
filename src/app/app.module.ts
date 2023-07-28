@@ -8,7 +8,8 @@ import { MainComponent } from './componentes/main/main.component';
 import { RedesSociaisComponent } from './componentes/redes-sociais/redes-sociais.component';
 import { FooterComponent } from './componentes/footer/footer.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-
+import { AboutComponent } from './componentes/about/about.component';
+import { ProjectsComponent } from './componentes/projects/projects.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,9 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     HeaderComponent,
     MainComponent,
     RedesSociaisComponent,
-    FooterComponent
+    FooterComponent,
+    AboutComponent,
+    ProjectsComponent
   ],
   imports: [
     BrowserModule,

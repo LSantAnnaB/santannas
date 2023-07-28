@@ -1,0 +1,38 @@
+.container{
+  display: flex;
+  justify-content: center;
+  padding-left: 5%;
+  margin-top: 2%;
+}
+.slide-container {
+  display: flex;
+
+
+  height: 25em; /* Altura da imagem do slide */
+  overflow: hidden;
+  position: relative;
+}
+
+.slide-container-responsive {
+  display: flex;
+  padding-right: 20%;
+  padding-left: 3%;
+  padding-top: 8%;
+  height: 25em; /* Altura da imagem do slide */
+  overflow: hidden;
+  position: relative;
+}
+
+.slide-image {
+  border-radius: 30px;
+
+  height: 100%;
+  opacity: 1;
+  animation: fade 4.9s ease-in-out infinite; /* Efeito de transição suave */
+
+}
+
+@keyframes fade {
+  0%, 100% { opacity: 0; }
+  25% { opacity: 1; }
+}

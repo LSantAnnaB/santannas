@@ -1,0 +1,15 @@
+<div class="container">
+
+  <div class="slide-container">
+    <a [href]="getCurrentLink()" [style.zIndex]="currentImageIndex + 1" class="slide-link" target="_blank">
+      <img [src]="getCurrentImage()" alt="Slide Image" class="slide-image" />
+    </a>
+  </div>
+  <div class="slide-container-responsive">
+    <a [href]="getCurrentResponsiveLink()" [style.zIndex]="currentResponsiveImageIndex + 1"
+      class="slide-link-responsive" target="_blank">
+      <img [src]="getCurrentResponsiveImage()" alt="Slide Image" class="slide-image" />
+    </a>
+  </div>
+
+</div>
