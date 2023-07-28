@@ -41,10 +41,10 @@ export class ProjectsComponent implements OnInit{
   ngOnInit() {
     setInterval(() => {
       this.showNextImage();
-    }, 4890);
+    }, 4420);
     setInterval(() => {
       this.showNextResponsiveImage();
-    }, 4890);
+    }, 4420);
   }
 
   showNextImage() {
