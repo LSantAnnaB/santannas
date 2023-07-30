@@ -10,6 +10,8 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { AboutComponent } from './componentes/about/about.component';
 import { ProjectsComponent } from './componentes/projects/projects.component';
 import { NgxPageScrollModule } from 'ngx-page-scroll';
+import { ContactComponent } from './componentes/contact/contact.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -19,12 +21,14 @@ import { NgxPageScrollModule } from 'ngx-page-scroll';
     RedesSociaisComponent,
     AboutComponent,
     ProjectsComponent,
+    ContactComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FontAwesomeModule,
     NgxPageScrollModule,
+    FormsModule
 
   ],
   providers: [],

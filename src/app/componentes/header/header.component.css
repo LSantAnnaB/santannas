@@ -96,3 +96,40 @@ nav ul li a:hover {
   color: #ff0000;
 }
 
+
+
+@media(max-width:1000px) {
+  header ul li a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1em;
+
+  }
+
+  .btn-contato button{
+    width:7em;
+    height: 40px;
+    border-radius: 1em;
+  }
+
+  header ul li{
+    display: inline-block;
+
+    margin: 0 4px;
+  }
+
+  header.rolagem{
+    background-color: #19191957;
+    padding: 2% 2%;
+  }
+
+  .banner h1{
+    font-size: 3.8em;
+    text-align: center;
+  }
+
+  .banner h1 span{
+    color: #ff0000;
+  }
+
+}

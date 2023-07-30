@@ -35,3 +35,20 @@ main {
   justify-content: center;
   padding-top: 3%;
 }
+
+@media(max-width:1000px){
+  .main__content__text {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 0;
+    padding-top: 40%;
+    padding-bottom: 10%;
+    text-align: center;
+    font-family: var(--fonte-primaria);
+    font-size: 2.5em;
+    font-family: var(--fonte-secundaria);
+    color: var(--cor-secundaria);
+
+  }
+}
