@@ -188,8 +188,9 @@ section.module.parallax:after{
   display: flex;
   justify-content: center;
   padding-right: 0;
-  padding-left: 0;
+  padding-left: 35%;
   padding-top: 5%;
+  width: 30%;
   height: 18em; /* Altura da imagem do slide */
   overflow: hidden;
   position: relative;
