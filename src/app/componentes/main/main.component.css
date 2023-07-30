@@ -1,7 +1,6 @@
 main {
-  background-image: url('../../../assets/main.jpg');
+  background-image: url('../../../assets/main/stacks_project.jpg');
   background-size: cover;
-  background-position: bottom;
   background-repeat: no-repeat;
   height: 100vh;
 }

@@ -4,18 +4,18 @@
 }
 
 .container-projects{
-  background-image: url('../../../assets/project.jpg');
+  background-image: url('../../../assets/projects/tech-01.jpg');
   background-size: cover;
-  background-position: top;
+
   background-repeat: no-repeat;
   height: 100vh;
 }
 .container-project{
   display: flex;
   justify-content: center;
-  padding-left: 5%;
-  padding-top: 8%;
-  margin-bottom: 5.5%;
+  padding-left: 2%;
+  padding-top: 9%;
+ padding-bottom: 15%;
 }
 
 .slide-container {
@@ -123,7 +123,7 @@ section.module.parallax:after{
 
 
 section.module.parallax-1{
-  background-image: url("../../../assets/stacks_project.jpg");
+  background-image: url("../../../assets/projects/tech.jpg");
 }
 
 

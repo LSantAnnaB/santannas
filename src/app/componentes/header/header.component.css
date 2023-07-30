@@ -78,7 +78,7 @@ nav ul li a:hover {
 
 .banner{
   height: 100vh;
-  background-image: url(../../../assets/header.jpg);
+  background-image: url(../../../assets/header/tech.jpg);
   background-position: 100% 0;
   background-repeat: no-repeat;
   background-size: cover;
@@ -89,7 +89,7 @@ nav ul li a:hover {
 }
 
 .banner h1{
-  font-size: 4em;
+  font-size: 4em;  color: white;
 }
 
 .banner h1 span{
@@ -126,6 +126,7 @@ nav ul li a:hover {
   .banner h1{
     font-size: 3.8em;
     text-align: center;
+
   }
 
   .banner h1 span{
